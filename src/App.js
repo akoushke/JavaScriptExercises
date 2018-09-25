@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Routes, Links } from './Routes';
 import './App.css';
 
 export default class App extends Component {
-  constructor() {
-    super();
-  }
-
   setupLinks() {
     const links =
         Links.map(link => {

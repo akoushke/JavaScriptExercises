@@ -1,11 +1,6 @@
-import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Component } from 'react';
 
 export default class Basic extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return null;
   }
